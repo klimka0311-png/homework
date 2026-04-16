@@ -1,1 +1,96 @@
+.header {
+  width: 100%;
+  border-bottom: 1px solid #e0e0e0; /* Тонкая линия снизу, как на фото */
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; /* Лого влево, инфо вправо */
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo {
+  font-weight: bold;
+  line-height: 1;
+}
+
+.logo-top {
+  display: block;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.logo-bottom {
+  display: block;
+  font-size: 18px;
+  color: #333;
+}
+
+.header-info {
+  text-align: right; /* Текст прижат к правому краю */
+}
+
+.promo-text {
+  margin: 0;
+  font-size: 12px;
+  color: #999;
+  text-transform: uppercase;
+}
+
+.phone {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+}
+.site-footer {
+  /* Нежный градиент: от светло-голубого к розовому */
+  background: linear-gradient(90deg, #e3f2fd 0%, #ffffff 50%, #fce4ec 100%);
+  padding-top: 40px;
+  font-family: sans-serif;
+  color: #333;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Центрируем логотип и меню */
+  gap: 30px;
+  padding-bottom: 30px;
+}
+
+.footer-logo img {
+  height: 50px; /* Настройте под свой логотип */
+}
+
+.footer-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 40px; /* Расстояние между пунктами */
+  padding: 0;
+  margin: 0;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #555;
+  font-size: 14px;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(0, 0, 0, 0.05); /* Едва заметная линия */
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-bottom p {
+  font-size: 12px;
+  color: #999;
+  margin: 0;
+}
 
